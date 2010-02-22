@@ -1,5 +1,6 @@
 > ats custom commands for quix
 > Instapaper command from merlin (http://gist.github.com/290059)
+> Updated 2/21/2010
 
 @My custom commands
 .	http://ping.fm/dashboard?post=%s	Send selected to ping.fm dashboard	
