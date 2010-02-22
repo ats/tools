@@ -1,0 +1,8 @@
+> This is a quix command file
+
+@My custom commands
+.	http://ping.fm/dashboard?post=%s	Send selected to ping.fm dashboard	
+.u http://ping.fm/dashboard?post=%r	Send url to ping.fm dashboard	
+lessn	http://sqrt.me/u/-/?url=%r	Send to lessn at sqrt.me	
+i	javascript:function%20iprl5(){var%20d=document,z=d.createElement('scr'+'ipt'),b=d.body;try{if(!b)throw(0);d.title='(Saving...)%20'+d.title;z.setAttribute('src','http://www.instapaper.com/j/fUnulFxO2ctI?u='+encodeURIComponent(d.location.href)+'&t='+(new%20Date().getTime()));b.appendChild(z);}catch(e){alert('Please%20wait%20until%20the%20page%20has%20loaded.');}}iprl5();void(0)  Instapaper: Read me later (via merlin)
+jg http://jguitar.com/chordsearch?chordsearch=%s	JGuitar chord lookup	
