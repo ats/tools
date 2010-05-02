@@ -10,3 +10,12 @@ i	javascript:function%20iprl5(){var%20d=document,z=d.createElement('scr'+'ipt'),
 jg http://jguitar.com/chordsearch?chordsearch=%s	JGuitar chord lookup	
 tab http://www.ultimate-guitar.com/search.php?value=%s&search_type=title	Ultimate Tabs song search
 btab http://www.ultimate-guitar.com/search.php?value=%s&search_type=band	Ultimate Tabs band search	
+
+@Text tools
+@Markdown and text manipulation tools
+
+ml              javascript:(function(s){try{s=document.selection.createRange().text}catch(_){s=document.getSelection()}prompt('Markdown%20Link','['+s+']('+location+')')})();void(0)    Copy selected text as Markdown link
+mt              javascript:(function(s){try{s=document.selection.createRange().text}catch(_){s=document.getSelection()}prompt('Markdown%20Title','['+document.title+']('+location+')')})();void(0)      Copy title as Markdown link
+mu              javascript:(function(s){try{s=document.selection.createRange().text}catch(_){s=document.getSelection()}prompt('Markdown%20URL','('+location+')')})();void(0)    URL as markdown link
+mc              javascript:(function(s){try{s=document.selection.createRange().text}catch(_){s=document.getSelection()}prompt('Markdown%20Copy','['+document.title+']('+location+')\n\n>'+s)})();void(0)    Copy selected text as quote with title url in markdown
+tc              javascript:(function(s){try{s=document.selection.createRange().text}catch(_){s=document.getSelection()}prompt('',document.title+'\n'+location+'\n'+s)})();void(0)   Page title, url and selection
